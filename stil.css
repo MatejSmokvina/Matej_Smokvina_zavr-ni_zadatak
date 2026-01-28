@@ -1,0 +1,128 @@
+/* Kopirajte ovaj kod u datoteku styles.css i povežite u svim HTML-ovima */
+body {
+	background-image: url("slike/DSC_6833-Edit.jpg");
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1 {
+    font-family: 'moj_font';
+	font-size: 2px;
+    color: #2c3e50;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    margin-bottom: 0.5em;
+}
+
+h2 {
+    font-size: 2em;
+    color: #34495e;
+    margin-top: 0;
+}
+
+p {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+    font-size: 1.2em;
+    max-width: 800px;
+	margin-bottom: 3em;
+    padding: 20px;
+    background: #f8f9fa;
+    border-left: 5px solid #3498db;
+    border-radius: 5px;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    background: linear-gradient(90deg, #3498db, #2980b9);
+    padding: 1em 0;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.navbar li {
+    margin-right: 2em;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.navbar a:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+.hero {
+    background-size: cover;
+    background-position: center;
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    margin: 1em 0;
+}
+
+.galerija {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.galerija img {
+    width: 300px;
+}
+
+section {
+    margin-bottom: 3em;
+    padding: 20px;
+    background: #f8f9fa;
+    border-left: 5px solid #3498db;
+    border-radius: 5px;
+}
+
+video {
+	justify-content: center;
+    align-items: center;
+	width: 60%;             
+    max-width: 1000px;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.video-centar {
+    display: flex;
+    justify-content: center; /* Vodoravno centriranje */
+    align-items: center;     /* Okomito centriranje */
+    min-height: 100vh;       /* Uzima 100% visine ekrana */
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar li {
+        margin: 0.5em 0;
+    }
+}
+@charset "UTF-8";
+/* CSS Document */
+
